@@ -1,0 +1,15 @@
+.todos_header--work button {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+}
+
+.crossBtn {
+  /* background-color: red; */
+  color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 2px;
+  /* display: none; */
+}

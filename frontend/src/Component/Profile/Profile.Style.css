@@ -1,0 +1,52 @@
+.main_container2 {
+  display: flex;
+  /* border: 5px solid green; */
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_container {
+  margin-top: 5rem;
+  /* border: 2px solid red; */
+  /* background-color: #6178a7; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70%;
+  max-width: 70%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid yellow; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 2rem;
+  min-width: 15rem;
+  max-width: 20rem;
+}
+
+.profile h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.common2 {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.common2 {
+  margin-right: 0.5rem;
+}
+
+.i_edit {
+  border-radius: 2px;
+  border: none;
+  padding: 5px;
+  /* background: transparent; */
+}

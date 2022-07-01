@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: white; */
+}
+
+.dashboard {
+  margin-top: 4rem;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header {
+  background-color: #6178a7;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid yellow; */
+  min-width: 70%;
+  border-radius: 5px;
+}
+
+/* .header-common{
+  
+} */
+
+.header-rightbtn {
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.4rem;
+  border: none;
+  background: transparent;
+}
+
+.header-profilebtn {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* background-color: #3a4355; */
+  border: none;
+  background: transparent;
+  /* align-items: center; */
+  /* border-bottom: 1px solid #ffffff; */
+}
+
+.todos {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.todos_header {
+  background-color: #6178a7;
+  /* border: 2px solid yellow; */
+  /* display: flex; */
+  min-width: 70%;
+  max-width: 70%;
+  /* justify-content: space-between; */
+  min-height: 50vh;
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.todos_header--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos_header--text {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.todos_header--btn {
+  /* padding-right: 1.5rem; */
+  padding: 0.2rem;
+  border: none;
+  margin-right: 1.4rem;
+  background-color: #3a4355;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.todos_header--work-container {
+  /* border: 2px solid red; */
+  padding: 1rem 1rem;
+}
+
+.todos_header--work {
+  color: #ffffff;
+  background-color: #3a4355;
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.addTodoplusbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  /* min-height: 25rem; */
+  opacity: 1;
+}
